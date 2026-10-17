@@ -1,0 +1,36 @@
+.Encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(125, 179, 161);
+    padding: 15px, 30px;
+    color: rgb(0, 0, 0);
+    gap: 30px;
+}
+
+.logo h2{
+    color: azure;
+    margin-bottom: 5px;
+}
+
+.logo p{
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.Menu{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.Menu a{
+    color: rgb(65, 58, 49);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.Menu a:hover{
+color: rgb(174, 223, 224);
+}
